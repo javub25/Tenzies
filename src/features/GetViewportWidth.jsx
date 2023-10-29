@@ -1,8 +1,8 @@
 import React from "react";
 const GetViewportWidth = (func) => 
 {
-    /* El bloque de código que proporcionó utiliza el gancho `React.useEffect` 
-    para agregar un detector de eventos al evento `resize` de la ventana. */
+    /* The code block you provided uses the `React.useEffect` hook to add an event detector to the window's `resize` event. 
+    hook to add an event detector to the window's `resize` event. */
     React.useEffect(() => {
         function handleResize() {
             func(window.innerWidth);
